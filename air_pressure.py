@@ -16,4 +16,4 @@ def air_pressure_at_heights(h):
 h_list =range (0, 1000, 100)
 for height in h_list:
     p_h = air_pressure_at_heights(height)
-    print (p_h)
+    print (height, '   ', p_h)
